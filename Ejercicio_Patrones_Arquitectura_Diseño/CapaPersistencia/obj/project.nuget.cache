@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rcm1R85/dL/rEg4gdtp/VOgYOG4Q8sBTAdWUMxHbvF3hycQ/M6eAviVeP4mgF5isQyc4+yRkQzWCn0gjOUKdGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UCSE\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

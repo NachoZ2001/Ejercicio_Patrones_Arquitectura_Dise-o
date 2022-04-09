@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "2LoFixybeipiXvHvapb5SXlRXvS5r/bIwmL/12qf/2oPIALR6j1+SgzUO3v0rw3CZxejpyC7ZMtKchhyA1ywXA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UCSE\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
