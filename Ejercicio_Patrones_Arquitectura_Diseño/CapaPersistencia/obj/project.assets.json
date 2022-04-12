@@ -11,17 +11,14 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "CapaLogicaNegocio/1.0.0": {
+      "Entidades/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.1"
-        },
         "compile": {
-          "bin/placeholder/CapaLogicaNegocio.dll": {}
+          "bin/placeholder/Entidades.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CapaLogicaNegocio.dll": {}
+          "bin/placeholder/Entidades.dll": {}
         }
       }
     }
@@ -54,36 +51,38 @@
         "packageIcon.png"
       ]
     },
-    "CapaLogicaNegocio/1.0.0": {
+    "Entidades/1.0.0": {
       "type": "project",
-      "path": "../Ejercicio_Patrones_Arquitectura_Diseño/CapaLogicaNegocio.csproj",
-      "msbuildProject": "../Ejercicio_Patrones_Arquitectura_Diseño/CapaLogicaNegocio.csproj"
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "CapaLogicaNegocio >= 1.0.0",
+      "Entidades >= 1.0.0",
       "Newtonsoft.Json >= 13.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UCSE\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\soyre\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
+      "projectUniqueName": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
       "projectName": "CapaPersistencia",
-      "projectPath": "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
-      "packagesPath": "C:\\Users\\UCSE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\obj\\",
+      "projectPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
+      "packagesPath": "C:\\Users\\soyre\\.nuget\\packages\\",
+      "outputPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\UCSE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\soyre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -98,8 +97,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj": {
-              "projectPath": "C:\\Users\\UCSE\\Desktop\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj"
+            "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Entidades\\Entidades.csproj"
             }
           }
         }
@@ -134,7 +133,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
