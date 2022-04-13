@@ -8,7 +8,7 @@ Console.WriteLine("Ingrese la fecha de atencion");
 DateTime fechaAtencion = DateTime.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese su mail");
 string mail = Console.ReadLine();
-CapaLogicaNegocio.Singleton.Instance.CargarAtenciones(dni, codigoEnfermedad, fechaAtencion, para);
+Console.WriteLine(CapaLogicaNegocio.Singleton.Instance.CargarAtenciones(dni, codigoEnfermedad, fechaAtencion, mail));
 
 
 
