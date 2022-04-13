@@ -1,5 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
 Console.WriteLine("Ingrese su DNI");
 int dni = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese el codigo de la enfermedad");
