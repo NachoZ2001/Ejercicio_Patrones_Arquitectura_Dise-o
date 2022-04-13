@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+//CapaLogicaNegocio.Singleton.Instance.CargarEnfermedadPrueba();
+//CapaLogicaNegocio.Singleton.Instance.CargarClientePrueba();
 Console.WriteLine("Ingrese su DNI");
 int dni = int.Parse(Console.ReadLine());
 Console.WriteLine("Ingrese el codigo de la enfermedad");
