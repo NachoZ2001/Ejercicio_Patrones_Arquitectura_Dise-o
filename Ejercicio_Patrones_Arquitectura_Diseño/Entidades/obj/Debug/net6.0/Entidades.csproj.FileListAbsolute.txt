@@ -1,0 +1,12 @@
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\bin\Debug\net6.0\Entidades.deps.json
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\bin\Debug\net6.0\Entidades.dll
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\bin\Debug\net6.0\Entidades.pdb
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.dll
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\Entidades.pdb
+D:\PROGRAMACION II\Ejercicio_Patrones_\Ejercicio_Patrones_Arquitectura_Diseño\Entidades\obj\Debug\net6.0\ref\Entidades.dll
