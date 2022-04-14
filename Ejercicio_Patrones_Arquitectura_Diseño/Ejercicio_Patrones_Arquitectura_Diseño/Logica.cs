@@ -28,14 +28,14 @@ namespace CapaLogicaNegocio
         {
             return Json.Instance.LeerClientes();
         }
-        //public bool CargarCliente(int dni, string nombre, string apellido, DateTime fechaNacimiento, string ciudad, double ingresosNetos, double ingresosAnuales)
-        //{
-        //    Cliente nuevoCliente = new Cliente(dni, nombre, apellido, fechaNacimiento, ciudad, ingresosNetos, ingresosAnuales);
-        //    Clientes = LeerClientes();
-        //    Clientes.Add(nuevoCliente);
-        //    GuardarListadoClientes(Clientes);
-        //    return true;
-        //}
+        public bool CargarCliente(int dni, string nombre, string apellido, DateTime fechaNacimiento, string ciudad, double ingresosNetos, double ingresosAnuales, string descripcion, string empresa, int cantMaximaGrupoFamiliar, double costoBaseCobertura, List<Enfermedad> enfermedades)
+        {
+            Cliente nuevoCliente = new Cliente(dni, nombre, apellido, fechaNacimiento, ciudad, ingresosNetos, ingresosAnuales, descripcion, empresa, cantMaximaGrupoFamiliar, costoBaseCobertura, enfermedades);
+            Clientes = LeerClientes();
+            Clientes.Add(nuevoCliente);
+            GuardarListadoClientes(Clientes);
+            return true;
+        }
         public bool GuardarListadoClientes(List<Cliente> clientes)
         {
             Json.Instance.GuardarListaClientes(clientes);
@@ -162,19 +162,19 @@ namespace CapaLogicaNegocio
             return true;
         }
 
-        public void CargarClientePrueba()
-        {
-            Cliente nuevoCliente = new Cliente(43494396, "Ignacio", "Zbrun", DateTime.Now.Date, "Rafaela", 10000, 123456, "ta terrible", "Sancor",5,888.8,LeerEnfermedades());
-            Clientes = LeerClientes();
-            Clientes.Add(nuevoCliente);
-            GuardarListadoClientes(Clientes);
-        }
-        public void CargarEnfermedadPrueba()
-        {
-            Enfermedad nuevaEnfermedad = new Enfermedad(3, 0, "Cancer", 700);
-            Enfermedades = LeerEnfermedades();
-            Enfermedades.Add(nuevaEnfermedad);
-            GuardarListadoEnfermedades(Enfermedades);
-        }
+        //public void CargarClientePrueba()
+        //{
+        //    Cliente nuevoCliente = new Cliente(43494396, "Ignacio", "Zbrun", DateTime.Now.Date, "Rafaela", 10000, 123456, "ta terrible", "Sancor",5,888.8,LeerEnfermedades());
+        //    Clientes = LeerClientes();
+        //    Clientes.Add(nuevoCliente);
+        //    GuardarListadoClientes(Clientes);
+        //}
+        //public void CargarEnfermedadPrueba()
+        //{
+        //    Enfermedad nuevaEnfermedad = new Enfermedad(3, 0, "Cancer", 700);
+        //    Enfermedades = LeerEnfermedades();
+        //    Enfermedades.Add(nuevaEnfermedad);
+        //    GuardarListadoEnfermedades(Enfermedades);
+        //}
     }
 }
