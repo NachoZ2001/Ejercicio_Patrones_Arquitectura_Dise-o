@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LCJFZpDNfzFXNcsou56H7tmHIuE2+AfRUnzcxkXD40jn9tbMyNzqmbqSBX5Wbp1iOeGI0Cyf5vCSzfWk3NQS+g==",
+  "dgSpecHash": "RYDNbIffMnlI/HwGG2ufdKmtpQ5Xd5Gk3B9PiwtohrvccX9isLZCMPMHnNvQMQpGajqdHWME/4fJdWMw2yB2ZQ==",
   "success": true,
-  "projectFilePath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\soyre\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

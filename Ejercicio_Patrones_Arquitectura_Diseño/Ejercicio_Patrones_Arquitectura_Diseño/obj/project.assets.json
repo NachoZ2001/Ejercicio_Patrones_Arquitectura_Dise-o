@@ -2,21 +2,11 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Newtonsoft.Json/13.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
-        }
-      },
       "CapaPersistencia/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Entidades": "1.0.0",
-          "Newtonsoft.Json": "13.0.1"
+          "Entidades": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CapaPersistencia.dll": {}
@@ -38,33 +28,6 @@
     }
   },
   "libraries": {
-    "Newtonsoft.Json/13.0.1": {
-      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
-    },
     "CapaPersistencia/1.0.0": {
       "type": "project",
       "path": "../CapaPersistencia/CapaPersistencia.csproj",
@@ -79,30 +42,27 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "CapaPersistencia >= 1.0.0",
-      "Entidades >= 1.0.0",
-      "Newtonsoft.Json >= 13.0.1"
+      "Entidades >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\soyre\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\msote\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj",
+      "projectUniqueName": "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj",
       "projectName": "CapaLogicaNegocio",
-      "projectPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj",
-      "packagesPath": "C:\\Users\\soyre\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\obj\\",
+      "projectPath": "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaLogicaNegocio.csproj",
+      "packagesPath": "C:\\Users\\msote\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\Ejercicio_Patrones_Arquitectura_Diseño\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\soyre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\msote\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -117,11 +77,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj": {
-              "projectPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj"
+            "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj": {
+              "projectPath": "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\CapaPersistencia\\CapaPersistencia.csproj"
             },
-            "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Entidades\\Entidades.csproj": {
-              "projectPath": "D:\\PROGRAMACION II\\Ejercicio_Patrones_\\Ejercicio_Patrones_Arquitectura_Diseño\\Entidades\\Entidades.csproj"
+            "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\msote\\OneDrive\\Documentos\\Repositorios\\Ejercicio_Patrones_Arquitectura_Dise-oNacho\\Ejercicio_Patrones_Arquitectura_Diseño\\Entidades\\Entidades.csproj"
             }
           }
         }
@@ -135,12 +95,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -151,12 +105,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
