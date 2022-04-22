@@ -1,1 +1,0 @@
-[{"CodigoEnfermedad":3,"TipoEnfermedad":0,"Nombre":"Cancer","CostoAsociado":700.0}]
